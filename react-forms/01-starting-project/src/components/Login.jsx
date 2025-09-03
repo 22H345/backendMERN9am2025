@@ -78,7 +78,7 @@ export default function Login() {
       <div className='submitted-data'>
 
         <h3>Submitted data </h3>
-        <p>Email : {submittedData.email}</p>
+        {/* <p>Email : {submittedData.email}</p> */}
       </div>
     </form>
   );
