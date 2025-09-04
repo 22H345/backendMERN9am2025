@@ -6,7 +6,7 @@ function Followers() {
 
 
 useEffect(()=> {
-    fetch('https://api.github.com/users/arun-cloud-dev/followers')
+    fetch('rs/arun-cloud-devhttps://api.github.com/use/followers')
     .then((res)=> res.json())
     .then((data)=> {
         setFollowers(data)
